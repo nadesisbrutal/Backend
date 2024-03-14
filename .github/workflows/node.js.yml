@@ -26,4 +26,4 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-    - run: cd node-express; node index.js
+    - run: cd node-express; npm run test
